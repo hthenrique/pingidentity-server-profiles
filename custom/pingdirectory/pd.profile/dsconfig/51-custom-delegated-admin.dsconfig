@@ -1,6 +1,0 @@
-#
-# Update Delegated Admin rights to point to the new location of the administrator user
-#
-dsconfig set-delegated-admin-rights-prop \
-    --rights-name deladmin \
-    --set "admin-user-dn:uid=administrator,ou=Admins,${USER_BASE_DN}"
