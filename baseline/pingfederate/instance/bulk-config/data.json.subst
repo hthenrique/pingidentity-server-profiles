@@ -370,10 +370,10 @@
             "operationType": "SAVE",
             "items": [{
                 "federationInfo": {
-                    "saml2EntityId": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
+                    "saml2EntityId": "https://${PF_ENGINE_BASE_URL}",
                     "saml1xIssuerId": "localhost:default:entityId",
                     "wsfedRealm": "",
-                    "baseUrl": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}",
+                    "baseUrl": "https://${PF_ENGINE_BASE_URL}",
                     "saml1xSourceId": ""
                 },
                 "contactInfo": {},
@@ -1593,7 +1593,7 @@
                             }],
                             "extendedAttributes": []
                         },
-                        "ssoApplicationEndpoint": "https://${PF_ENGINE_PRIVATE_HOSTNAME}:${PF_ENGINE_PRIVATE_PORT_HTTPS}/idp/startSSO.ping?PartnerSpId=https%3A%2F%2Fhttpbin.org"
+                        "ssoApplicationEndpoint": "https://${PF_ENGINE_BASE_URL}/idp/startSSO.ping?PartnerSpId=https%3A%2F%2Fhttpbin.org"
                     },
                     "entityId": "https://httpbin.org",
                     "loggingMode": "STANDARD",
